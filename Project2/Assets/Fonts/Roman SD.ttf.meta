@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 618178d917048b540a7b4a1c81272c0a
+timeCreated: 1478806506
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Roman SD
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: eb2283fe2b451f84ea5ac4b0031f58fb, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
