@@ -14,7 +14,7 @@ public class GameManager : NetworkBehaviour
 	// Variables for UI stuff. 
 
 	public Canvas menuCanvas;
-	public Canvas inGameCanvas;
+
 	public Canvas gameOverCanvas;
 	[SerializeField]
 	public TextMesh scoreText;
@@ -61,7 +61,7 @@ public class GameManager : NetworkBehaviour
 		{
 			//setup Unity scene for menu state
 			menuCanvas.enabled = true;
-			inGameCanvas.enabled = false;
+;
 			gameOverCanvas.enabled = false;
 
 		}
@@ -69,7 +69,7 @@ public class GameManager : NetworkBehaviour
 		{
 			//setup Unity scene for inGame state
 			menuCanvas.enabled = false;
-			inGameCanvas.enabled = true;
+
 			gameOverCanvas.enabled = false;
 
 		}
@@ -77,7 +77,7 @@ public class GameManager : NetworkBehaviour
 		{
 			//setup Unity scene for gameOver state
 			menuCanvas.enabled = false;
-			inGameCanvas.enabled = false;
+
 			gameOverCanvas.enabled = true;
 
 		}

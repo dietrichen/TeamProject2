@@ -11,7 +11,7 @@ public class SpearCollider : MonoBehaviour
 		if ((other.gameObject.tag == "Player"))
 		{
 			Debug.Log("You got stabbed!");
-			health.TakeDamage(10);
+			//health.TakeDamage(10);
 		}
 		if (health = null)
 			GameManager.instance.GameOver();

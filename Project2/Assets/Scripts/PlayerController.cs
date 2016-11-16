@@ -34,7 +34,7 @@ public class PlayerController : NetworkBehaviour
 	{
 		state = new CubeState
 		{
-			x = 0,
+			x = -4,
 			y = 0,
 			zRotate = 0,
 			spearY = 0
